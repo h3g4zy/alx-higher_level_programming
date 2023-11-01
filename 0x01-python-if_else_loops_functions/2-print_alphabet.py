@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-alphabet = "".join([chr(ord('a') + i) for i in range(26)])
-print(f"{alphabet}", end='')
+for letter in range(97, 123):
+    print("{}".format(chr(letter)), end="")
